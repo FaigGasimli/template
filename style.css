@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    margin: auto;
+} 
+
+.navbar {
+    width: 75%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+.navbar ul li a {
+    color: black;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+}
+
+.navbar .logo{
+    width: 40%;
+}
+.navbar .logo h1 {
+    font-weight: 100;
+    letter-spacing: ;
+}
+
+.navbar .menu {
+    width: 60%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li{
+    margin-left: 4rem;
+}
+
+.menu ul li a{
+    color: #000;
+}
+
+.menu i {
+    font-size: 30px;
+
+}
+
+/* nav-bar end */
+
+.ShopNow {
+    width: 100%;
+    font-size: 1rem;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.shop-text {
+    display: flex;
+    gap:10px
+}
+
+.ShopNow a {
+    color: #fff;
+}
+
+
+#main {
+    width: 100%;
+    background-color: #451314;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.image {
+    width: 50%;
+
+}
+
+
+
+.text {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.text h1 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.text h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.btn button {
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+
+
+.image img {
+    width: 100%; 
+}
+
+#collection {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+
+#collection .left {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.left {
+    width: 30%;
+
+}
+.left h1 {
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+
+.left h3 {
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.left button {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    gap:10px;
+}
+
+.right img {
+    width: 100%;
+}
+
+#inspired {
+    margin-top: 100px;
+    background-image: url('img/sss.jpeg');
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inspired .life h1 {
+   color: #fff;
+   font-size: 60px;
+   font-weight: 100;
+}
+
+#card-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    gap:10px
+}
+
+.card1 {
+    width: 50%;
+}
+
+.card1 h1 {
+    font-weight: 100;
+    margin-top: 30px;
+
+}
+.card1 p {
+    margin-top: 20px;
+}
+.card1 button {
+    padding: 15px 50px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.card2 {
+    width: 50%;
+}
+.card1 img {
+    width: 100%;
+}
+
+.card2 img {
+    width: 100%;
+}
+
+.card2 h1 {
+    font-weight: 100;
+    margin-top: 30px;
+
+}
+.card2 p {
+    margin-top: 20px;
+}
+.card2 button {
+    padding: 15px 50px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#drop {
+     background-position: center;
+    margin-top: 100px;
+    background-image: url('img/girs.jpeg');
+    background-size: cover;
+    height: 40rem ;
+    
+}
+
+.drop-text {
+    width: 80%;
+    height: 40rem;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+#drop button {
+    padding: 20px 30px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+#drop h2 {
+    font-weight: 100;
+    color: #fff;
+    font-size: 50px;
+}
+#drop h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    width: 60%;
+
+}
+
+#drop input {
+    width: 500px;
+    height: 3rem;
+    padding: 0 10px;
+    color: #000;
+
+}
+
+#footer {
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    margin-top: 100px ;
+
+}
+
+.info-left {
+    width: 70%;
+}
+.info-left ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.info-right {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+
+}
+.info-right a{
+    color: #000;
+    margin-top: 50px;
+}
+    

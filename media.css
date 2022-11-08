@@ -1,0 +1,613 @@
+@media only screen and (min-width:1400px) {
+    .menu i {
+        display: none;
+    }
+
+    .right-image {
+        width: 70%;
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .right-image img {
+        width: 100%;
+        height: 550px;
+    }
+
+}
+
+@media only screen and (max-width:1400px) {
+    .menu i {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .menu i {
+        display: none;
+    }
+    #collection .right {
+        width: 100%;
+    }
+    .right {
+        display: flex;
+        gap:10px;
+    }
+    
+    .right img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+ 
+    #collection {
+        display: inline;
+        width: 50%;
+        margin: auto;
+
+
+    }
+
+
+    #collection .left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-left: 120px;
+    }
+
+    #collection .right {
+        display: inline;
+    }
+    .right {
+        text-align: center;
+        gap:10px;
+    }
+    
+    .right img {
+        width: 70%;
+    }
+
+    .ShopNow {
+        width: 100%;
+        font-size: 0.9rem;
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        padding: 20px 0;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .shop-text {
+        display: flex;
+        gap: 10px
+    }
+
+
+    #header {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0 2rem;
+    }
+
+    .navbar .menu ul li {
+        display: none;
+    }
+
+    .menu i {
+        display: inline;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image img {
+        width: 50%;
+    }
+
+    .text {
+        width: 100%;
+        height: 70%;
+    }
+
+    .text h1 {
+        font-weight: 100;
+        font-size: 30px;
+    }
+
+    .text h2 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .text button {
+        padding: 15px 35px;
+    }
+
+    .text {
+        width: 100%;
+        color: #fff;
+        display: flex;
+
+    }
+
+    .collection-content {
+        display: inline;
+    }
+
+    .left-text {
+        width: 100%;
+    }
+
+
+
+    .right-image {
+        width: 70%;
+        display: inline;
+        gap: 10px;
+
+    }
+
+    .right-image img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #card-box {
+        width: 100%;
+        margin: auto;
+        display: inline;
+        margin-top: 100px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 50%;
+    }
+
+    .card2 {
+        width: 50%;
+    }
+
+    .drop-text {
+        width: 80%;
+        height: 40rem;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+    }
+
+    #drop button {
+        padding: 20px 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    #drop h2 {
+        font-weight: 100;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    #drop h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff;
+        width: 60%;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .right-image {
+        width: 70%;
+        display: inline;
+        gap: 10px;
+
+    }
+
+    #inspired .life h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .right-image img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #card-box {
+        width: 100%;
+        margin: auto;
+        display: inline;
+        margin-top: 100px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    #drop {
+        background-position: center;
+        margin-top: 100px;
+        background-image: url('img/girs.jpeg');
+        background-size: cover;
+        height: 40rem;
+
+    }
+
+    .drop-text {
+        width: 80%;
+        height: 40rem;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+    }
+
+    #drop button {
+        padding: 20px 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    #drop h2 {
+        font-weight: 100;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #drop h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+        width: 60%;
+
+    }
+
+    #drop input {
+        width: 500px;
+        height: 3rem;
+        padding: 0 10px;
+        color: #000;
+
+    }
+    #collection {
+        display: inline;
+    }
+
+
+    #collection {
+        display: inline;
+        width: 50%;
+        margin: auto;
+        margin-top: 100px !important
+
+    }
+
+
+    #collection .left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-left: 120px;
+    }
+
+    #collection .right {
+        display: inline;
+    }
+}
+@media only screen and (max-width:992px) {
+ 
+    #collection {
+        display: inline;
+        width: 50%;
+        margin: auto;
+
+
+    }
+
+
+    #collection .left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-left: 120px;
+    }
+
+    #collection .right {
+        display: inline;
+    }
+    .right {
+        text-align: center;
+        gap:10px;
+    }
+    
+    .right img {
+        width: 70%;
+    }
+
+    .ShopNow {
+        width: 100%;
+        font-size: 0.9rem;
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        padding: 20px 0;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .shop-text {
+        display: flex;
+        gap: 10px
+    }
+
+
+    #header {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0 2rem;
+    }
+
+    .navbar .menu ul li {
+        display: none;
+    }
+
+    .menu i {
+        display: inline;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image img {
+        width: 50%;
+    }
+
+    .text {
+        width: 100%;
+        height: 70%;
+    }
+
+    .text h1 {
+        font-weight: 100;
+        font-size: 30px;
+    }
+
+    .text h2 {
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .text button {
+        padding: 15px 35px;
+    }
+
+    .text {
+        width: 100%;
+        color: #fff;
+        display: flex;
+
+    }
+
+    .collection-content {
+        display: inline;
+    }
+
+    .left-text {
+        width: 100%;
+    }
+
+
+
+    .right-image {
+        width: 70%;
+        display: inline;
+        gap: 10px;
+
+    }
+
+    .right-image img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #card-box {
+        width: 100%;
+        margin: auto;
+        display: inline;
+        margin-top: 100px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 50%;
+    }
+
+    .card2 {
+        width: 50%;
+    }
+
+    .drop-text {
+        width: 80%;
+        height: 40rem;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+    }
+
+    #drop button {
+        padding: 20px 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    #drop h2 {
+        font-weight: 100;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    #drop h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff;
+        width: 60%;
+
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .right-image {
+        width: 70%;
+        display: inline;
+        gap: 10px;
+
+    }
+
+    #inspired .life h1 {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 100;
+    }
+
+    .right-image img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #card-box {
+        width: 100%;
+        margin: auto;
+        display: inline;
+        margin-top: 100px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    #footer {
+        width: 80%;
+        height: 20rem;
+        margin: auto;
+        display: inline;
+        margin-top: 100px;
+
+    }
+
+
+    #collection {
+        display: inline;
+        width: 50%;
+        margin: auto;
+        margin-top: 100px !important;
+
+    }
+
+
+    #collection .left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        padding-left: 0;
+    }
+    #collection .left button {
+        padding: 25px 40px;
+    }
+
+    #collection .right {
+        display: inline;
+    }
+
+    #collection .right img {
+        width: 100%;
+    }
+
+}
